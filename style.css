@@ -83,70 +83,72 @@
 }
 /* card section  */
 .card-section{
+    padding: 80px 0;
     text-align: center;
 }
-.card-section h1{
-    font-size: 48px;
-    color: #001931;
-    font-weight: bold;
+
+/* card container  */
+.card-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
-.card-section p{
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-}
-/* cards flexing here  */
-.all-cards{
-    padding: 44px 120px 0 120px;
-    margin: 0 120px;
-    max-width: 1360px;
-}
+
+/* cards flexing here */
 .cards{
     display: flex;
     gap: 24px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
-    
-    margin: 0 auto;
+    margin-top: 60px;
 }
-.card{
-    padding: 30px;
-    max-width: 322px;
-    height: 300px;
-    /* border: 1px solid black; */
-    border-radius: 8px;
-    box-shadow: 10px 11px 20px#627382;
 
+/* card design  */
+.card{
+    background: #fff;
+    padding: 40px 24px;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0px 12px 30px rgba(0,0,0,0.12);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
 }
+
+/* card image icon */
 .card img{
-    margin: 70px 131px 16px 131px;
-    background-color: #F95555;
     width: 32px;
     height: 32px;
     padding: 12px;
+    background: #F95555;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
+
+/* card title */
 .card h3{
-    font-size: 24px;
-    font-weight: 600px;
+    font-size: 22px;
+    font-weight: 600;
     color: #001931;
-    max-width: 274px;
+    margin-bottom: 14px;
 }
+
+/* card text */
 .card p{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 15px;
     line-height: 20px;
     color: #627382;
 }
+
 /* solution section  */
 .solution {
   padding-top: 120px;
   
+}
+.paragraph-title{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
 }
 
 .solution-container {
@@ -168,6 +170,8 @@
 
 .paragraph {
   flex: 1;
+
+  
 }
 .lists{
     list-style: none;
@@ -267,3 +271,6 @@
     padding-bottom: 30px;
 }
 
+button:hover{
+    background-color: #F95555;
+}

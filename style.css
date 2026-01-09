@@ -43,6 +43,23 @@
     max-width: 770px;
     text-align: center;
 }
+.early-access-btn{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 12px;
+    max-width: 229px;
+    height: 35px;
+    color: #469165;
+    border: none;
+    text-align: center;
+    padding: auto;
+    gap: 8px;
+}
+.early-access-btn img{
+    width: 16px;
+    height: 16px;
+    
+}
 .hero-heading h1{
     color: #FFFFFF;
     font-size: 75px;
@@ -181,9 +198,11 @@
     background-image: url("assets/CheckCircle.png");
     background-repeat: no-repeat;
     background-size: 20px 20px;
-    padding-left: 35px;           /* text er left space */
+    background-position: left;
+    padding-left: 35px;
     margin-bottom: 12px;
     font-size: 16px;
+    text-align: left;
 }
 
 
@@ -213,7 +232,7 @@
 }
 .join-container p{
     color: #627382;
-    font-size: 16px;
+    font-size: 22px;
     background-size: cover;
     line-height: 24px;
     text-align: center;
